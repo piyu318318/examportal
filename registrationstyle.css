@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(clg2.jpeg);
+}
+
+
+.login-box{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white;
+    font-size: 20px;    
+}
+
+.login-box h1{ 
+    float: left;
+    font-size: 30px;
+    border-bottom: 3px solid #aa8d88;
+    margin-bottom: 10px;
+    padding: 6px 0;
+    color: rgb(200, 200, 218);
+}
+
+.textbox3{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 3px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #F3CFC8;
+}
+.textbox4{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #F3CFC8;
+}
+
+.textbox3 input{
+    border: none;
+    outline: none;
+    color: white;
+    background:none ;
+    font-size: 13px;
+    width: 80px;
+    margin: 0 5px;
+}
+
+
+.textbox4 input{
+    border: none;
+    outline: none;
+    color: white;
+    background:none ;
+    font-size: 13px;
+    width: 80px;
+    margin: 0 5px;
+}
+
+.btn2 .btn2{
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid #aa8d88;
+    cursor: pointer;
+    color: white;
+}
+
+.btn2 .btn2{
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid #aa8d88;
+    cursor: pointer;
+    color: white;
+}

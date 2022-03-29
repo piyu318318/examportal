@@ -30,8 +30,10 @@
 
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
- </head>
+  <!--for the dropdown button-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">    </script>
+    
   </head>
   <body>
 
@@ -59,11 +61,17 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Subjects <span class="sr-only">(current)</span></a>
                     </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Log in
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="login.html ">Student log-in</a>
+                        <a class="dropdown-item" href="#">Teacher login</a>
                     <li class="nav-item active">
-                        <a class="nav-link" href="login.html">Log-in <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="registration.html">Registration <span class="sr-only">)</span></a>
+
+                      
                     </li>
                     
                 </ul>
